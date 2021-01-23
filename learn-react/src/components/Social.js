@@ -2,10 +2,23 @@ import React from "react";
 
 function Social(){
     return(
-        <ul>
-        <li> Facebook </li> 
-        <li> Youtube </li> 
-        <li> Instagram </li> 
+        <ul className="list-group">
+
+        <li className="list-group-item"> 
+            <input type="checkbox" id="facebook" /> 
+            <label for="facebook">facebook</label>
+        </li> 
+
+        <li className="list-group-item"> 
+            <input type="checkbox" id="Youtube" /> 
+            <label for="Youtube">Youtube</label>
+        </li> 
+
+        <li className="list-group-item"> 
+            <input type="checkbox" id="Instagram" /> 
+            <label for="Instagram">Instagram</label>
+        </li> 
+        
      </ul> 
     );
 }

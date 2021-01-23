@@ -9,7 +9,7 @@ import Social from "./Social"
 
 function App() {
     return(
-        <div>
+        <div className= "container">
             <Header />
             <Text />
             <Social />  

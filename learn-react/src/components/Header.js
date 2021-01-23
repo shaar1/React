@@ -1,9 +1,9 @@
 import React from "react";
 
 function Header(){
-    render(
-        
+    return(
+        <h1> Design is my life. </h1>  
     );
 }
 
-export default Header 
+export default Header;

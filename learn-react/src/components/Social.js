@@ -1,10 +1,14 @@
 import React from "react";
 
 function Social(){
-    render(
-        
+    return(
+        <ul>
+        <li> Facebook </li> 
+        <li> Youtube </li> 
+        <li> Instagram </li> 
+     </ul> 
     );
 }
 
-export default Social 
+export default Social;
 

@@ -1,22 +1,18 @@
 
-import React from "react";
+import React from "react"
+import Header from "./Header"
+import Text from "./Text"
+import Social from "./Social"
+
+
 
 
 function App() {
-    return (
+    return(
         <div>
-
-            <Header/>
-            <Text/>
-            <Social/>
-
-             <h1> Design is my life. </h1> 
-             <p> Graphic and Web design are far more than a job for me. </p> 
-             <ul>
-                <li> Facebook </li> 
-                <li> Youtube </li> 
-                <li> Instagram </li> 
-             </ul> 
+            <Header />
+            <Text />
+            <Social />  
         </div>
     );
 } 
